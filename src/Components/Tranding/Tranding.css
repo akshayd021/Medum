@@ -1,0 +1,120 @@
+.logo p {
+ display: flex;
+ gap: 0.5rem ;
+ margin-top: 50px;
+}
+.logo p span {
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bold;  
+}
+.first :nth-child(1) {
+    color: rgb(226, 224, 224);
+    font-size: 30px;
+    font-weight: bold;
+}
+.first img {
+    border-radius: 50%;
+    border: 1px solid black;
+    width:25px;
+    margin: 0 10px;
+}
+.first :nth-child(3) {
+    font-size: small;
+    font-weight: 400;
+}
+.first p {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 40px;
+}
+.first :nth-child(5){
+    margin-left: 40px;
+    font-size: small;
+}
+/* second */
+.second :nth-child(1) {
+    color: rgb(226, 224, 224);
+
+    font-size: 30px;
+    font-weight: bold;
+}
+.second img {
+    border-radius: 50%;
+    border: 1px solid black;
+    width:25px;
+    margin: 0 10px;
+}
+.second :nth-child(3) {
+    font-size: small;
+    font-weight: 400;
+}
+.second p {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 40px;
+}
+.second :nth-child(5){
+    margin-left: 40px;
+    font-size: small;
+}
+.second :nth-child(5) svg{
+   margin-left: 1rem;
+}
+/* last */
+.third :nth-child(1) {
+    color: rgb(226, 224, 224);
+    font-size: 30px;
+    font-weight: bold;
+}
+.third img {
+    border-radius: 50%;
+    border: 1px solid black;
+    width:25px;
+    margin: 0 10px;
+}
+.third :nth-child(3) {
+    font-size: small;
+    font-weight: 400;
+}
+.third p {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 40px;
+}
+.third :nth-child(5){
+    margin-left: 40px;
+    font-size: small;
+}
+.horizontal {
+    margin-top: 70px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .logo p span {
+    font-size: inherit;
+}
+.first :nth-child(1){
+    font-size: 26px;
+}
+.first p{
+    font-size: inherit;
+    margin-top: 7px;
+}
+.second :nth-child(1){
+    font-size: 26px;
+}
+.second p{
+    font-size: inherit;
+    margin-top: 7px;
+}
+.third :nth-child(1){
+    font-size: 26px;
+}
+.third p{
+    font-size: inherit;
+    margin-top: 7px;
+}
+}

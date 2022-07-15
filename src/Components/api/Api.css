@@ -1,0 +1,47 @@
+.right-side button {
+    padding: 7px 20px;
+    margin: 4px 10px;
+    color: gray;
+    font-size: small;
+    border: none;
+    border: 1px solid rgb(218, 209, 209);
+     background-color:  white;
+}
+.right-side p {
+    font-weight: bold;
+}
+.right-side hr {
+    margin-top: 30px;
+}
+/* .down ul {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+.down ul li {
+    list-style: none;
+    position: relative;
+}
+.down ul li a {
+    position: relative;
+    margin: 0 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+} */
+
+.down span{
+    flex-flow: column;
+    display: inline-block;
+    position: relative;
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 992px) {
+  .down span {
+      display: none;
+  }
+}
